@@ -1,0 +1,12 @@
+import 'package:basicdart/basicdart.dart' as basicdart;
+
+void main(List<String> arguments) {
+  int totalsum = sum(5, 3);
+
+  print("Sum of 5 and 3 = $totalsum");
+}
+
+int sum(int num1, int num2) {
+  int total = num1 + num2;
+  return total;
+}

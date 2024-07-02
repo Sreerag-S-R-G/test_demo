@@ -1,0 +1,25 @@
+import 'package:basicdart/basicdart.dart' as basicdart;
+
+void main(List<String> arguments) {
+  Car mycar = new Car();
+  String brand = "Toyota";
+  String model = "Corolla";
+  int year = 2020;
+  mycar.brand(brand);
+  mycar.model(model);
+  mycar.year(year);
+}
+
+class Car {
+  void brand(String b) {
+    print("Brand=$b");
+  }
+
+  void model(String b1) {
+    print("Model=$b1");
+  }
+
+  void year(int y1) {
+    print("Year=$y1");
+  }
+}

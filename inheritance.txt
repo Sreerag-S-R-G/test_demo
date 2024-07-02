@@ -1,0 +1,19 @@
+import 'package:basicdart/basicdart.dart' as basicdart;
+
+void main(List<String> arguments) {
+  Dog mydog = new Dog();
+  mydog.makesound();
+}
+
+class Animal {
+  void makeSound() {
+    print(" Some generic animal sound");
+  }
+}
+
+class Dog extends Animal {
+  @override
+  void makesound() {
+    print("Bark");
+  }
+}

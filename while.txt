@@ -1,0 +1,10 @@
+import 'package:basicdart/basicdart.dart' as basicdart;
+
+void main(List<String> arguments) {
+  print("Created by sreerag");
+
+  int i = 1;
+  while (i <= 100) {
+    print(i);
+    i++;
+  }
